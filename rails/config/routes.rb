@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'establishments/index'
+
+  get 'establishments/show'
+
+  get 'establishments/create'
+
+  get 'establishments/update'
+
+  get 'establishments/delete'
+
   get 'users/index'
 
   get 'users/show'
