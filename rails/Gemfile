@@ -17,5 +17,8 @@ gem 'capistrano-rails', group: :development
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-activemodel-mocks'
+  gem 'rspec-mocks'
+  gem 'rspec-expectations'
 end
 
